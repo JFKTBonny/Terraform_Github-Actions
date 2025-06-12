@@ -1,7 +1,7 @@
 # Github Actions Workflow file that builds and pushes the docker images.
 name: GitOps_Terraform.app
 env:
-  DOCKERHUB_TAG: "${{ secrets.DOCKERHUB_USERNAME }}/GitOps_Terraform"
+  DOCKERHUB_TAG: "${{ secrets.DOCKERHUB_USERNAME }}/gitops_terraform"
   DOCKERFILE_PATH: app
 
 on:
