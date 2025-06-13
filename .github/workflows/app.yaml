@@ -8,9 +8,10 @@ on:
   push:
     branches:
       - main
-    # paths:
-    #   - "app/**"
-    #   - "!**/README.md"
+    paths:
+      - .github/workflows/app.yaml
+      - "app/**"
+      - "!**/README.md"
 
 # Job declaration starts.
 jobs:
