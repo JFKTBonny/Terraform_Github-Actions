@@ -1,4 +1,4 @@
-# Setting and locking the Dependencies
+# # Setting and locking the Dependencies
 terraform {
   required_providers {
     aws = {
